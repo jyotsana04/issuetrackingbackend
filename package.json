@@ -1,0 +1,36 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "backend for issue tracking app",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Jyotsana",
+    "license": "ISC",
+    "dependencies": {
+        "apidoc": "^0.17.7",
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.18.3",
+        "cookie-parser": "^1.4.4",
+        "express": "^4.16.4",
+        "express-session": "^1.16.1",
+        "g": "^2.0.1",
+        "google-auth-library": "^3.1.2",
+        "jsonwebtoken": "^8.5.0",
+        "moment": "^2.24.0",
+        "moment-timezone": "^0.5.23",
+        "mongoose": "^5.4.17",
+        "morgan": "^1.9.1",
+        "multer": "^1.4.1",
+        "passport": "^0.4.0",
+        "passport-facebook": "^3.0.0",
+        "passport-google-oauth": "^2.0.0",
+        "passport-jwt": "^4.0.0",
+        "pino": "^5.11.1",
+        "redis": "^2.8.0",
+        "shortid": "^2.2.14",
+        "socket.io": "^2.2.0",
+        "title-case": "^2.1.1"
+    }
+}
