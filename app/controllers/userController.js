@@ -19,7 +19,7 @@ const AuthModel = require('../models/Auth.js');
 const IssueModel = mongoose.model('Issue');
 
 const googleAuth = require('./google-auth');
-const facebookAuth = require('./facebook-auth');
+
 const GOOGLE_CLIENT_ID = '1091082596943-49t59doqnuiim4fl7nuvt1229md2us09.apps.googleusercontent.com';
 const { OAuth2Client } = require('google-auth-library');
 var client = new OAuth2Client(GOOGLE_CLIENT_ID, 'Q3ISkgY1ZodiTMZMuFZ8Pj2C', '');
