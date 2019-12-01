@@ -1,6 +1,6 @@
-const GOOGLE_CLIENT_ID = '1091082596943-49t59doqnuiim4fl7nuvt1229md2us09.apps.googleusercontent.com';
+const GOOGLE_CLIENT_ID = '744821336225-fjv19pnh05421mrbkgtpv71lq8as8fat.apps.googleusercontent.com';
 const { OAuth2Client } = require('google-auth-library');
-var client = new OAuth2Client(GOOGLE_CLIENT_ID, 'NfRQmYpzacLPB2cv0fbcGs3Y', '');
+var client = new OAuth2Client(GOOGLE_CLIENT_ID, '4t10Rh3eLbfd8vHaIlQ5ufY9', '');
 
 module.exports.getGoogleUser = code => {
     return client.verifyIdToken({ idToken: code, audience: GOOGLE_CLIENT_ID })
