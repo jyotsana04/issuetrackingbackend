@@ -28,7 +28,7 @@
         "passport-google-oauth": "^2.0.0",
         "passport-jwt": "^4.0.0",
         "pino": "^5.11.1",
-        "redis": "^2.8.0",
+        "redis": "^3.1.1",
         "shortid": "^2.2.14",
         "socket.io": "^2.2.0",
         "title-case": "^2.1.1"
